@@ -1,7 +1,7 @@
 #twitter{
-    color: "cyan";
+    color: cyan;
 }
-.content {
-    font-size: 10010px;
+#content {
+    font-size: 100px;
     color : white;
 }

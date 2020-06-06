@@ -3,21 +3,21 @@ import React from 'react';
 //screens
 import Nav from './Nav';
 import Header from './Header';
-import AboutContent from './AboutContent';
+import AchivementContent from './AchivementContent';
 import Footer from './Footer';
 
-class About extends React.Component {
+class Achivement extends React.Component {
     render() {
         // return では一要素しか返せないところをReactFragmentで囲ってやることでOK
         return (
             <React.Fragment>
-                <Nav />
                 <Header />
-                <AboutContent />
+                <Nav />
+                <AchivementContent />
                 <Footer />
             </React.Fragment>
         );
     }
 }
 
-export default About;
+export default Achivement;

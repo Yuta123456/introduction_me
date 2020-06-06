@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
 
 //import screens
 import Home from './screens/Home';
-import About from './screens/About';
+import Achivement from './screens/Achivement';
 import Links from './screens/Links';
 
 class App extends React.Component {
@@ -15,7 +15,7 @@ class App extends React.Component {
                <BrowserRouter>
                     <Switch>
                          <Route exact path="/" component={Home} />
-                         <Route exact path="/About" component={About} />
+                         <Route exact path="/Achivement" component={Achivement} />
                          <Route exact path="/Links" component={Links} />
                          <Route render={() => (<p>Page not found.</p>)} />
                     </Switch>

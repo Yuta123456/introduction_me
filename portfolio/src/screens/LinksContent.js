@@ -1,10 +1,10 @@
 import React from 'react';
 class LinksContent extends React.Component {
     render() {
-        return ( 
-            <div id="main" style={{ height: 300, background: "#eee" }}>
+        return (
+            <p class="content">
                 LinkContent
-            </div>
+            </p>
         );
     }
 }

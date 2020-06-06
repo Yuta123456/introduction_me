@@ -1,20 +1,15 @@
 import React from 'react';
-
 class Header extends React.Component {
     render() {
-        //style={{color:"cyan"}}これだと行ける
-        var twitter_style = {
-            color : "cyan",
-            margin: 0,
-            top: 'auto',
-            right: 20,
-            bottom: 'auto',
-            left: 'auto',
-            position: 'fixed'
+        
+        var header_style = {
+            height : 100,
+            background: "#555",
+            color:"3ff",
         }
+        //style={{ height: 200, background: "#555", color:"3ff"}}
         return (
-            <header style={{ height: 100, background: "#"}}>
-                <a href="https://twitter.com/nayuta999999"><i class="fab fa-twitter fa-4x" style={twitter_style}></i></a>
+            <header style={header_style}>
             </header>
         );
     }

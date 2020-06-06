@@ -10,8 +10,8 @@ class Home extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Nav />
                 <Header />
+                <Nav />
                 <HomeContent />
                 <Footer />
             </React.Fragment>

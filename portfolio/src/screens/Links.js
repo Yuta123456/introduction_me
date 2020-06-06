@@ -10,8 +10,8 @@ class Links extends React.Component {
     render() {
         return (
             <React.Fragment>
-                <Nav />
                 <Header />
+                <Nav />
                 <LinksContent />
                 <Footer />
             </React.Fragment>
