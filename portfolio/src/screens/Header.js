@@ -3,7 +3,6 @@ class Header extends React.Component {
     render() {
         
         var header_style = {
-            height : 100,
             background: "#555",
             color:"3ff",
         }

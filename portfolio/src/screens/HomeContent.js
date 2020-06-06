@@ -4,9 +4,10 @@ class HomeContent extends React.Component {
         super(props);
         this.cli = false;
     }
+    //マウスカーソルもっていったら、動的に動くようにしたいよね
     render() {
         return (
-            <div style={{ height: 'auto', backgroundColor: "#ffffff" }}>
+            <div style={{backgroundColor: "#ffffff" }}>
                 <p className="content">Profile</p>
                     <div class="container has-text-centered ">
                         <div class="is-size-3">年齢 : 20</div>

@@ -2,7 +2,7 @@ import React from 'react';
 class AchivementContent extends React.Component {
     render() {
         return ( 
-            <div style={{ height: 1200, backgroundColor: "#ffffff" }}>
+            <div style={{backgroundColor: "#ffffff" }}>
                 <p className="content">Achivement</p>
                     <div class="container has-text-centered ">
                         <div class="is-size-3">基本情報技術者 2018年 11月</div>
