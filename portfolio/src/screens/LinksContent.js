@@ -2,9 +2,12 @@ import React from 'react';
 class LinksContent extends React.Component {
     render() {
         return (
-            <p class="content">
-                LinkContent
-            </p>
+            <div>
+                <h1 className="content">Links</h1>
+                <div class="container has-text-centered ">
+                    <div>また今度なんか作るからまってて</div>
+                </div>
+            </div>
         );
     }
 }

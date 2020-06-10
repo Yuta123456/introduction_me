@@ -1,17 +1,14 @@
 import React from 'react';
+import pic from '../logo.jpg'
 class Header extends React.Component {
     render() {
-        
-        var header_style = {
-            background: "#555",
-            color:"3ff",
-        }
-        //style={{ height: 200, background: "#555", color:"3ff"}}
         return (
-            <header style={header_style}>
+            <header>
+                <div className = "hero-head has-text-centered">
+                    <img src = {pic} width = "50%" height = "20%"></img>
+                </div>
             </header>
         );
     }
 }
-
 export default Header;
