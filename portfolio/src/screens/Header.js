@@ -2,12 +2,18 @@ import React from 'react';
 import pic from './image/logo.jpg'
 class Header extends React.Component {
     render() {
-        return (
-            <header>
-                <div className = "hero-head has-text-centered">
-                    <img src = {pic} width = "50%" height = "20%"></img>
-                </div>
-            </header>
+        return ( 
+        <section class="hero is-medium is-primary is-bold">
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="title">
+              Intoroduction me
+            </h1>
+          </div>
+        </div>
+        
+      </section>
+        
         );
     }
 }
