@@ -33,8 +33,8 @@ class HomeContent extends React.Component {
                 <section className="section">
                 <h1 className="title has-text-primary">Jobs</h1>
                     <div class="container">
-                        <li>2018~現在　株式会社東京個別指導学院　講師</li>
-                        <li>2020~現在　株式会社HI　アルバイト</li>
+                        <li>2018~ 株式会社東京個別指導学院　講師</li>
+                        <li>2020~ 株式会社HI　アルバイト</li>
                     </div>
                 </section>
                 <section className="section">
