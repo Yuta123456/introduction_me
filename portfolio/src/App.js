@@ -4,8 +4,8 @@ import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom';
 //import screens
 import Home from './screens/Home';
 import Achivement from './screens/Achivement';
-import Links from './screens/Links';
-
+import Fasions from './screens/Fasions';
+import Music from './screens/Music'
 class App extends React.Component {
      render() {
        //ページを追加したいときには、ここで指定
@@ -16,7 +16,8 @@ class App extends React.Component {
                     <Switch>
                          <Route exact path="/" component={Home} />
                          <Route exact path="/Achivement" component={Achivement} />
-                         <Route exact path="/Links" component={Links} />
+                         <Route exact path="/Fasions" component={Fasions} />
+                         <Route exact path="/Music" component={Music} />
                          <Route render={() => (<p>Page not found.</p>)} />
                     </Switch>
                </BrowserRouter>

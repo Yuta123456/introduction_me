@@ -3,20 +3,20 @@ import React from 'react';
 //screens
 import Nav from './Nav';
 import Header from './Header';
-import LinksContent from './LinksContent';
+import FasionsContent from './FasionsContent';
 import Footer from './Footer';
 
-class Links extends React.Component {
+class Fasions extends React.Component {
     render() {
         return (
             <React.Fragment>
                 <Header />
                 <Nav />
-                <LinksContent />
+                <FasionsContent />
                 <Footer />
             </React.Fragment>
         );
     }
 }
 
-export default Links;
+export default Fasions;
